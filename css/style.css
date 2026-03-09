@@ -36,6 +36,11 @@ a {
   padding: 0 1.25rem;
 }
 
+.nav .container {
+  max-width: 100%;
+  padding: 0 1.5rem;
+}
+
 /* ===== NAVIGATION ===== */
 .nav {
   position: fixed;
@@ -59,13 +64,14 @@ a {
 }
 
 .nav-logo {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #fff;
   display: flex;
   align-items: center;
   gap: .4rem;
   transition: color .3s;
+  margin-left: 0;
 }
 
 .nav.scrolled .nav-logo {
