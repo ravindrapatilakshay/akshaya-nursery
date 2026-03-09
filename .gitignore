@@ -1,4 +1,5 @@
-Images/
+# Original unoptimized images
+/Images/
 .DS_Store
 Thumbs.db
 *.log
